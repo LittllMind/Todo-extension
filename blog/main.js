@@ -240,7 +240,8 @@ class PostListComponent {
     clearStoredData() {
         this.postService.clearData();
         console.log('afterClean');
-        window.location.reload();
+        location.reload();
+        this.router.navigate(['/post-list']);
     }
     ngOnDestroy() {
         this.postSubscription.unsubscribe();
@@ -249,7 +250,8 @@ class PostListComponent {
         console.log(index);
         this.postService.deletePost(index);
         this.postService.synchronisePosts();
-        window.location.reload();
+        location.reload();
+        this.router.navigate(['/post-list']);
     }
 }
 PostListComponent.ɵfac = function PostListComponent_Factory(t) { return new (t || PostListComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_post_service__WEBPACK_IMPORTED_MODULE_1__["PostService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
