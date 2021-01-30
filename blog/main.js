@@ -33,10 +33,10 @@ class Task {
 
 /***/ }),
 
-/***/ "6dZq":
-/*!************************************************!*\
-  !*** ./src/app/tab-view/tab-view.component.ts ***!
-  \************************************************/
+/***/ "7N02":
+/*!*****************************************************!*\
+  !*** ./src/app/todo/tab-view/tab-view.component.ts ***!
+  \*****************************************************/
 /*! exports provided: TabViewComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -52,11 +52,7 @@ class TabViewComponent {
     }
 }
 TabViewComponent.ɵfac = function TabViewComponent_Factory(t) { return new (t || TabViewComponent)(); };
-TabViewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TabViewComponent, selectors: [["app-tab-view"]], decls: 2, vars: 0, template: function TabViewComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "tab-view works!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0YWItdmlldy5jb21wb25lbnQuc2NzcyJ9 */"] });
+TabViewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TabViewComponent, selectors: [["app-tab-view"]], decls: 0, vars: 0, template: function TabViewComponent_Template(rf, ctx) { }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0YWItdmlldy5jb21wb25lbnQuc2NzcyJ9 */"] });
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TabViewComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -587,8 +583,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_post_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./services/post.service */ "ENZJ");
 /* harmony import */ var _new_post_new_post_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./new-post/new-post.component */ "nEq3");
 /* harmony import */ var _todo_todo_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./todo/todo.module */ "lCCV");
-/* harmony import */ var _tab_view_tab_view_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tab-view/tab-view.component */ "6dZq");
-
 
 
 
@@ -614,8 +608,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
         _post_list_post_list_component__WEBPACK_IMPORTED_MODULE_6__["PostListComponent"],
-        _new_post_new_post_component__WEBPACK_IMPORTED_MODULE_8__["NewPostComponent"],
-        _tab_view_tab_view_component__WEBPACK_IMPORTED_MODULE_10__["TabViewComponent"]], imports: [_angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
+        _new_post_new_post_component__WEBPACK_IMPORTED_MODULE_8__["NewPostComponent"]], imports: [_angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
@@ -626,8 +619,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                 declarations: [
                     _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
                     _post_list_post_list_component__WEBPACK_IMPORTED_MODULE_6__["PostListComponent"],
-                    _new_post_new_post_component__WEBPACK_IMPORTED_MODULE_8__["NewPostComponent"],
-                    _tab_view_tab_view_component__WEBPACK_IMPORTED_MODULE_10__["TabViewComponent"]
+                    _new_post_new_post_component__WEBPACK_IMPORTED_MODULE_8__["NewPostComponent"]
                 ],
                 imports: [
                     _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
@@ -758,6 +750,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _task_view_task_view_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./task-view/task-view.component */ "Gkgl");
 /* harmony import */ var _services_task_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/task.service */ "i6c7");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _tab_view_tab_view_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tab-view/tab-view.component */ "7N02");
+
 
 
 
@@ -778,7 +772,8 @@ TodoModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
             _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ReactiveFormsModule"]
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](TodoModule, { declarations: [_tasks_tasks_component__WEBPACK_IMPORTED_MODULE_3__["TasksComponent"],
-        _task_view_task_view_component__WEBPACK_IMPORTED_MODULE_4__["TaskViewComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _task_view_task_view_component__WEBPACK_IMPORTED_MODULE_4__["TaskViewComponent"],
+        _tab_view_tab_view_component__WEBPACK_IMPORTED_MODULE_7__["TabViewComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _todo_routing_module__WEBPACK_IMPORTED_MODULE_2__["TodoRoutingModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ReactiveFormsModule"]] }); })();
@@ -787,7 +782,8 @@ TodoModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
         args: [{
                 declarations: [
                     _tasks_tasks_component__WEBPACK_IMPORTED_MODULE_3__["TasksComponent"],
-                    _task_view_task_view_component__WEBPACK_IMPORTED_MODULE_4__["TaskViewComponent"]
+                    _task_view_task_view_component__WEBPACK_IMPORTED_MODULE_4__["TaskViewComponent"],
+                    _tab_view_tab_view_component__WEBPACK_IMPORTED_MODULE_7__["TabViewComponent"]
                 ],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
@@ -954,6 +950,10 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
+        path: 'tasks',
+        loadChildren: 'TodoModule'
+    },
+    {
         path: 'post-list',
         component: _post_list_post_list_component__WEBPACK_IMPORTED_MODULE_2__["PostListComponent"]
     },
@@ -963,11 +963,7 @@ const routes = [
     },
     {
         path: '**',
-        redirectTo: 'post-list'
-    },
-    {
-        path: 'tasks',
-        loadChildren: 'TodoModule'
+        redirectTo: 'tasks'
     }
 ];
 class AppRoutingModule {
